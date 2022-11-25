@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-
+import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
 import 'bloc/auth_bloc.dart';
 import 'screens/general_info_screen.dart';
 import 'screens/list_cart.dart';
@@ -80,21 +80,21 @@ class _MyHomePageState extends State<MyHomePage> {
                 Tab(icon: Icon(Icons.food_bank_sharp)),
                 Tab(icon: Icon(IconData(0xe59c, fontFamily: 'MaterialIcons'))),
               ]),
-              title: Row(
+              title: /*Row(
                 children: [
                   ClipRRect(
                       child: Image.asset(
                     'assets/images/logo.png',
                     width: 100,
-                  )),
+                  )),*/
                   const Text("Ecozy Veg",
                       style: TextStyle(
                           fontStyle: FontStyle.italic,
                           color: Color.fromARGB(255, 250, 225, 3),
                           fontWeight: FontWeight.bold,
                           fontSize: 30)),
-                ],
-              ),
+              /*  ],
+              ),*/
               shadowColor: Colors.blue,
             ),
             body: MultiBlocProvider(

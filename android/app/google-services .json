@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "742580758027",
+    "project_id": "cozyveg",
+    "storage_bucket": "cozyveg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742580758027:android:5c521f6c8f9f34fe7d890e",
+        "android_client_info": {
+          "package_name": "s700.app.cozyveg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742580758027-bh0st21sjqke872p5iq8oshlchhv26ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsYZjHovRJmwAQBlILt19ED1a6tlREwuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742580758027-bh0st21sjqke872p5iq8oshlchhv26ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
